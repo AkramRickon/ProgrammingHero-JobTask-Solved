@@ -10,7 +10,7 @@ a single person's information.<br/>
 Each person will have a name, ages, and a body temperature record.<br/>
 Function name should be **vaxTrail** . [If you don't give **vaxTrail** as your main
 function name , your code may fail the test cases.]* <br/>
-Sample:** <br/>
+**Sample:** <br/>
 ```
     vaxTrail([
         { name: 'sunil', age: 21, temperature: 98 },<br/>
@@ -18,15 +18,15 @@ Sample:** <br/>
     ])
 ```
 <br/>
-**Output:** <br/>
+**Output:**
+<br/>
 It will return an object from the function. That object will have 4 lists named as A, B,
 C, D respectively . Think A, B , C, D as line names in front of the vaccine booth.<br/>
 
 - A will have person with age 20-30 with temperature less than 100
 - B will have person with age 31-40 with temperature less than 100
 - C will have person with age 41-50 with temperature less than 100
-- D will have any range of age with temperature greater than equal 100
-<br/>
+- D will have any range of age with temperature greater than equal 100 <br/>
 **Each array will be sort by even ages people** <br/>
 Sample:<br/>
 
