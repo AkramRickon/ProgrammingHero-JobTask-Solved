@@ -13,8 +13,8 @@ function name , your code may fail the test cases.]* <br/>
 **Sample:** <br/>
 ```
     vaxTrail([
-        { name: 'sunil', age: 21, temperature: 98 },<br/>
-        { name: 'Biplap', age: 22, temperature: 98 },<br/>
+        { name: 'sunil', age: 21, temperature: 98 },
+        { name: 'Biplap', age: 22, temperature: 98 }
     ])
 ```
 **Output:** <br/>
