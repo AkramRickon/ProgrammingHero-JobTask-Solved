@@ -29,7 +29,7 @@ C, D respectively . Think A, B , C, D as line names in front of the vaccine boot
 **Each array will be sort by even ages people** <br/>
 **Sample:**<br/>
 
-```javascript
+```bash
 {
     A: [
             { name: 'Biplap', age: 22, temperature: 98 },
