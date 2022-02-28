@@ -26,6 +26,7 @@ C, D respectively . Think A, B , C, D as line names in front of the vaccine boot
 - B will have person with age 31-40 with temperature less than 100
 - C will have person with age 41-50 with temperature less than 100
 - D will have any range of age with temperature greater than equal 100
+<br/>
 **Each array will be sort by even ages people** <br/>
 Sample:<br/>
 
