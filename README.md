@@ -9,10 +9,13 @@ Each person will have a name, ages, and a body temperature record.<br/>
 Function name should be vaxTrail . [If you don't give vaxTrail as your main
 function name , your code may fail the test cases.]<br/>
 Sample:<br/>
-vaxTrail([<br/>
-    { name: 'sunil', age: 21, temperature: 98 },<br/>
-    { name: 'Biplap', age: 22, temperature: 98 },<br/>
-])<br/>
+```
+    vaxTrail([
+        { name: 'sunil', age: 21, temperature: 98 },<br/>
+        { name: 'Biplap', age: 22, temperature: 98 },<br/>
+    ])
+```
+<br/>
 Output:<br/>
 It will return an object from the function. That object will have 4 lists named as A, B,
 C, D respectively . Think A, B , C, D as line names in front of the vaccine booth.<br/>
