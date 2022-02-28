@@ -25,6 +25,7 @@ C will have person with age 41-50 with temperature less than 100<br/>
 D will have any range of age with temperature greater than equal 100
 Each array will be sort by even ages people<br/>
 Sample:<br/>
+
 ```
 {
     A: [
