@@ -1,7 +1,7 @@
 ## ProgrammingHero-JobTask_Solved 
 ### Problem 01 (Support Instructor) 
-`>`Bongo Vax want to trial their vaccine in the human body. So, they have to test their
-`>`medicine based on different age ranges.<br/>
+`>` Bongo Vax want to trial their vaccine in the human body. So, they have to test their
+`>` medicine based on different age ranges.<br/>
 **Input:** 
 Write a javascript function which takes an array of objects. Each object represents
 a single person's information.<br/>
