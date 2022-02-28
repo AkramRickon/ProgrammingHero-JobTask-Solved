@@ -11,7 +11,7 @@ Each person will have a name, ages, and a body temperature record.<br/>
 Function name should be **vaxTrail** . [If you don't give **vaxTrail** as your main
 function name , your code may fail the test cases.]* <br/>
 **Sample:** <br/>
-```
+```javascript
     vaxTrail([
         { name: 'sunil', age: 21, temperature: 98 },
         { name: 'Biplap', age: 22, temperature: 98 }
@@ -29,7 +29,7 @@ C, D respectively . Think A, B , C, D as line names in front of the vaccine boot
 **Each array will be sort by even ages people** <br/>
 **Sample:**<br/>
 
-```
+```javascript
 {
     A: [
             { name: 'Biplap', age: 22, temperature: 98 },
@@ -74,3 +74,6 @@ If the last number of the card is even, give the user Red Rose , if odd give whi
 
 **Output** <br/>
 ![output](https://github.com/AkramRickon/ProgrammingHero-JobTask_Solved/blob/main/output_task2.png)
+
+
+
