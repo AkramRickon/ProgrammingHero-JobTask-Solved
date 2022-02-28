@@ -1,12 +1,12 @@
 ## ProgrammingHero-JobTask_Solved 
 ### Problem 01 (Support Instructor) 
->Bongo Vax want to trial their vaccine in the human body. So, they have to test their
->medicine based on different age ranges.<br/>
+`>`Bongo Vax want to trial their vaccine in the human body. So, they have to test their
+`>`medicine based on different age ranges.<br/>
 **Input:** 
 Write a javascript function which takes an array of objects. Each object represents
 a single person's information.<br/>
 Each person will have a name, ages, and a body temperature record.<br/>
-Function name should be vaxTrail . [If you don't give vaxTrail as your main
+Function name should be **vaxTrail** . [If you don't give **vaxTrail** as your main
 function name , your code may fail the test cases.]<br/>
 Sample:<br/>
 ```
