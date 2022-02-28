@@ -27,6 +27,7 @@ const cardDistribution = (arr) => {
         temp += String(arr[i].currentYear).slice(-2) + String(arr[i].postNo).slice(0, 2);
         temp += arr[i].birthYear;
 
+        // considering maximum registered credit card user 1000.  
         if (i + 1 < 10) {
             temp += '00000' + (i + 1);
         }
@@ -35,15 +36,6 @@ const cardDistribution = (arr) => {
         }
         else if (i + 1 < 1000) {
             temp += '000' + (i + 1);
-        }
-        else if (i + 1 < 10000) {
-            temp += '00' + (i + 1);
-        }
-        else if (i + 1 < 100000) {
-            temp += '0' + (i + 1);
-        }
-        else if (i + 1 < 100000) {
-            temp += '0' + (i + 1);
         }
 
         card['cardNumber'] = temp;
