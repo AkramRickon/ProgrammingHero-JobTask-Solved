@@ -36,15 +36,15 @@ const cardDistribution = (arr) => {
         else if (i + 1 < 1000) {
             temp += '000' + (i + 1);
         }
-        // else if (i + 1 < 10000) {
-        //     temp += '00' + (i + 1);
-        // }
-        // else if (i + 1 < 100000) {
-        //     temp += '0' + (i + 1);
-        // }
-        // else if (i + 1 < 100000) {
-        //     temp += '0' + (i + 1);
-        // }
+        else if (i + 1 < 10000) {
+            temp += '00' + (i + 1);
+        }
+        else if (i + 1 < 100000) {
+            temp += '0' + (i + 1);
+        }
+        else if (i + 1 < 100000) {
+            temp += '0' + (i + 1);
+        }
 
         card['cardNumber'] = temp;
 
