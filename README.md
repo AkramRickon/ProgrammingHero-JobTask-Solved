@@ -53,20 +53,22 @@ Dhaka , take DH.
 6. Total character length will be 16.
 <br/>
 
-*Create a function named ‘cardDistribution()’ which will take an array of objects. Each
+***Create a function named ‘cardDistribution()’ which will take an array of objects. Each
 object will have each person's information. (You must use exact function name, or your
-test case may fail).*
+test case may fail).***
 
 <br/>
 While distributing sort data alphabetically with fist characters. Sort them with priority
 numbers. If the user has priority number 1 will be given first.
 <br/>
 If the last number of the card is even, give the user Red Rose , if odd give white Rose.
-R = red rose
-W = white rose
+<br/>
+**R = red rose**
+<br/>
+**W = white rose**
 
 **Input:** <br/>
-(https://github.com/AkramRickon/ProgrammingHero-JobTask_Solved/blob/main/input_task2.png)
+![input](https://github.com/AkramRickon/ProgrammingHero-JobTask_Solved/blob/main/input_task2.png)
 
 **Output** <br/>
-(https://github.com/AkramRickon/ProgrammingHero-JobTask_Solved/blob/main/output_task2.png)
+![output](https://github.com/AkramRickon/ProgrammingHero-JobTask_Solved/blob/main/output_task2.png)
