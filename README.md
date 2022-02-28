@@ -21,10 +21,11 @@ Sample:** <br/>
 **Output:** <br/>
 It will return an object from the function. That object will have 4 lists named as A, B,
 C, D respectively . Think A, B , C, D as line names in front of the vaccine booth.<br/>
+
 - A will have person with age 20-30 with temperature less than 100
--  will have person with age 31-40 with temperature less than 100
-- will have person with age 41-50 with temperature less than 100
-- will have any range of age with temperature greater than equal 100
+- B will have person with age 31-40 with temperature less than 100
+- C will have person with age 41-50 with temperature less than 100
+- D will have any range of age with temperature greater than equal 100
 **Each array will be sort by even ages people** <br/>
 Sample:<br/>
 
