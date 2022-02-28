@@ -5,12 +5,12 @@
  medicine based on different age ranges**.<br/>
 
 **Input:** 
-Write a javascript function which takes an array of objects. Each object represents
+**Write a javascript function which takes an array of objects. Each object represents
 a single person's information.<br/>
 Each person will have a name, ages, and a body temperature record.<br/>
 Function name should be **vaxTrail** . [If you don't give **vaxTrail** as your main
 function name , your code may fail the test cases.]<br/>
-Sample:<br/>
+Sample:** <br/>
 ```
     vaxTrail([
         { name: 'sunil', age: 21, temperature: 98 },<br/>
