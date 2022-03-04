@@ -82,7 +82,7 @@ If the last number of the card is even, give the user Red Rose , if odd give whi
 
 **W = white rose**
 
-**Input** <br/>
+**Input :** <br/>
 ```javascript
  cardDistribution([
     {
@@ -93,8 +93,9 @@ If the last number of the card is even, give the user Red Rose , if odd give whi
     }
 ])
 ```
+<br/>
 
-**Output** <br/>
+**Output :** <br/>
 ```javascript
 [
   { cardNumber: 'RA22121995000002', gift: 'R', priority: 1 },
