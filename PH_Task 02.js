@@ -1,19 +1,16 @@
 
 
-
+//sample input
 const arr = [
     {
         name: "Mr Rashed", birthYear: 1999, currentYear: 2022, district: "Dhaka", postNo: 1200, priority: 2
     },
     {
         name: "Mr Raju", birthYear: 1995, currentYear: 2022, district: "Rajsahi", postNo: 1211, priority: 1
-    },
-    {
-        name: "Mr Saju", birthYear: 1997, currentYear: 2022, district: "Comilla", postNo: 1214, priority: 11
     }
 ]
 
-
+//Main solution
 const cardDistribution = (arr) => {
 
     let cards = [];
@@ -56,3 +53,11 @@ const cardDistribution = (arr) => {
 }
 
 console.log(cardDistribution(arr));
+
+
+/* Output:
+[
+  { cardNumber: 'RA22121995000002', gift: 'R', priority: 1 },
+  { cardNumber: 'DH22121999000001', gift: 'W', priority: 2 }
+] 
+*/

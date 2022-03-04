@@ -2,16 +2,14 @@
 // input data
 const arr = [
     { name: 'Biplap', age: 22, temperature: 98 },
-    { name: 'Jahid', age: 20, temperature: 98 },
-    { name: 'Kat', age: 41, temperature: 98 },
-    { name: 'Nayem', age: 50, temperature: 100 },
-    { name: 'Kabir', age: 36, temperature: 99 },
-    { name: 'Rahul', age: 37, temperature: 99 },
-    { name: 'Paul', age: 42, temperature: 98 },
-    { name: 'sunil', age: 21, temperature: 98 },
-    { name: 'Sabnaj', age: 31, temperature: 101 }
+    { name: 'sunil',  age: 21, temperature: 98 },
+    { name: 'Kabir',  age: 36, temperature: 99 },
+    { name: 'Rahul',  age: 37, temperature: 99 },
+    { name: 'Kat',    age: 41, temperature: 98 },
+    { name: 'Paul',   age: 42, temperature: 98 },
+    { name: 'Nayem',  age: 50, temperature: 100 },
+    { name: 'Sabnaj', age: 51, temperature: 101 }
 ]
-
 
 //Sort function to sort array by even ages
 const sortArray = (arr) => {
@@ -22,7 +20,7 @@ const sortArray = (arr) => {
     return arr;
 }
 
-// solution 
+// Main solution 
 const vaxTrail = (arr) => {
 
     let A = [];
@@ -59,3 +57,25 @@ const vaxTrail = (arr) => {
 }
 
 console.log(vaxTrail(arr));
+
+
+/* Output :
+{
+  A: [
+    { name: 'Biplap', age: 22, temperature: 98 },
+    { name: 'sunil', age: 21, temperature: 98 }
+  ],
+  B: [
+    { name: 'Kabir', age: 36, temperature: 99 },
+    { name: 'Rahul', age: 37, temperature: 99 }
+  ],
+  C: [
+    { name: 'Paul', age: 42, temperature: 98 },
+    { name: 'Kat', age: 41, temperature: 98 }
+  ],
+  D: [
+    { name: 'Nayem', age: 50, temperature: 100 },
+    { name: 'Sabnaj', age: 51, temperature: 101 }
+  ]
+}
+ */

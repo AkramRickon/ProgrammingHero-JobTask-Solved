@@ -83,10 +83,24 @@ If the last number of the card is even, give the user Red Rose , if odd give whi
 **W = white rose**
 
 **Input** <br/>
-![input](https://github.com/AkramRickon/ProgrammingHero-JobTask_Solved/blob/main/input_task2.png)
+```javascript
+ cardDistribution([
+    {
+        name: "Mr Rashed", birthYear: 1999, currentYear: 2022, district: "Dhaka", postNo: 1200, priority: 2
+    },
+    {
+        name: "Mr Raju", birthYear: 1995, currentYear: 2022, district: "Rajsahi", postNo: 1211, priority: 1
+    }
+])
+```
 
 **Output** <br/>
-![output](https://github.com/AkramRickon/ProgrammingHero-JobTask_Solved/blob/main/output_task2.png)
+```javascript
+[
+  { cardNumber: 'RA22121995000002', gift: 'R', priority: 1 },
+  { cardNumber: 'DH22121999000001', gift: 'W', priority: 2 }
+]
+```
 
 
 
